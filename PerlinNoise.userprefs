@@ -1,16 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Tutorial.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Game\PatternMaker\PatternLogic.cs">
     <Files>
       <File FileName="Assets\Shader\Rorschach\Blur.shader" Line="1" Column="1" />
       <File FileName="Assets\Shader\Rorschach\Noise.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Inputs\PlayerCamera.cs" Line="19" Column="72" />
-      <File FileName="Assets\Scripts\Audio\AudioManager.cs" Line="8" Column="31" />
-      <File FileName="Assets\Scripts\UI\KEntity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Inputs\PlayerCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Audio\AudioManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\KEntity.cs" Line="19" Column="20" />
       <File FileName="Assets\Scripts\Dels.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Tutorial.cs" Line="19" Column="3" />
-      <File FileName="Assets\Scripts\Render\RenderTalkingCube.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Render\RenderText_SelfType.cs" Line="25" Column="20" />
+      <File FileName="Assets\Scripts\Tutorial.cs" Line="61" Column="85" />
+      <File FileName="Assets\Scripts\Render\RenderTalkingCube.cs" Line="49" Column="24" />
+      <File FileName="Assets\Scripts\Render\RenderText_SelfType.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Render\RenderFlash.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Render\Utility\RenderUtilityMover.cs" Line="23" Column="26" />
+      <File FileName="Assets\Scripts\Render\Utility\RenderUtilityScaler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Render\Utility\RenderUtility.cs" Line="13" Column="3" />
+      <File FileName="Assets\Scripts\Render\Ani\AniRandomSpin.cs" Line="13" Column="30" />
+      <File FileName="Assets\Scripts\Game\PatternMaker\PatternLogic.cs" Line="7" Column="21" />
+      <File FileName="Assets\Scripts\Game\PatternMaker\PatternBox.cs" Line="19" Column="3" />
+      <File FileName="Assets\Scripts\Utility\EasyUnity.cs" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\Render\Utility\RenderUtilityExtensions.cs" Line="3" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

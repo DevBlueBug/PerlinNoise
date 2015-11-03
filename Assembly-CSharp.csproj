@@ -47,26 +47,32 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Dels.cs" />
+     <Compile Include="Assets\Scripts\Game\PatternMaker\PatternBeacon.cs" />
+     <Compile Include="Assets\Scripts\Game\PatternMaker\PatternBox.cs" />
+     <Compile Include="Assets\Scripts\Game\PatternMaker\PatternLogic.cs" />
      <Compile Include="Assets\Scripts\Inputs\PlayerCamera.cs" />
+     <Compile Include="Assets\Scripts\Render\Ani\AniRandomSpin.cs" />
+     <Compile Include="Assets\Scripts\Render\RenderFlash.cs" />
      <Compile Include="Assets\Scripts\Render\RenderTalkingCube.cs" />
      <Compile Include="Assets\Scripts\Render\RenderText_SelfType.cs" />
+     <Compile Include="Assets\Scripts\Render\Utility\RenderUtility.cs" />
+     <Compile Include="Assets\Scripts\Render\Utility\RenderUtilityEasy.cs" />
+     <Compile Include="Assets\Scripts\Render\Utility\RenderUtilityMover.cs" />
+     <Compile Include="Assets\Scripts\Render\Utility\RenderUtilityScaler.cs" />
      <Compile Include="Assets\Scripts\Tutorial.cs" />
      <Compile Include="Assets\Scripts\UI\KEntity.cs" />
+     <Compile Include="Assets\Scripts\Utility\EasyTimer.cs" />
+     <Compile Include="Assets\Scripts\Utility\EasyUnity.cs" />
+     <Compile Include="Assets\Scripts\Utility\MonoBehaviourEasy.cs" />
      <None Include="Assets\Shader\Rorschach\Noise.shader" />
      <None Include="Assets\Shader\Rorschach\Blur.shader" />
      <None Include="Assets\Shader\Rorschach\Apply.shader" />
      <None Include="Assets\Shader\Rorschach\SimplexNoise.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

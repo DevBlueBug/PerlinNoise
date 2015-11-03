@@ -47,7 +47,7 @@ public class PlayerCamera : MonoBehaviour {
 		//Cursor.visible = false;
 		if (axis.x != 0 || axis.y != 0) {
 			rotationLocal += axis * sensitivity* Time.deltaTime;
-			rotationLocal.x = Mathf.Clamp(rotationLocal.x, -90, 90);
+			//rotationLocal.x = Mathf.Clamp(rotationLocal.x, -90, 90);
 			rotationLocal.y = Mathf.Clamp(rotationLocal.y, -90, 90);
 
 			//transform.localRotation =Quaternion.Euler(transform.localRotation.eulerAngles + new Vector3(-axis.y,axis.x,0) );
